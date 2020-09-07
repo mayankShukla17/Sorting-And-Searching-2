@@ -1,4 +1,4 @@
-package Sorting_And_Searching_2;
+package in.legato;
 /*Problem 6
 1) Create a function to accept the details of 5 Items in String.
 2) Create function to arrange the items in ascending order using bubble sort
@@ -8,7 +8,7 @@ the item details to user - linear search
  */
 import java.util.*;
 import Sorting_And_Searching_2.LinkedList.Node;
-public class ProblemSix {
+public class BubbleSortLinkedListLinearSearch {
 	public static void main(String[] args) {
 		ProblemSix problem=new ProblemSix();
 		String[] elements=problem.intputElements();

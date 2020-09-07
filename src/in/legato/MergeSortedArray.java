@@ -1,10 +1,10 @@
-package Sorting_And_Searching_2;
+package in.legato;
 /*Problem 2
 Given an integer array of which both first half and second half are sorted, merge two 
 sorted halves of the array into a single sorted array.
  */
 import java.util.Scanner;
-public class ProblemTwo {
+public class MergeSortedArray {
 	public static void mergeArrays(int[] array1, int[] array2, int size1,int size2, int[] array3) 
 	{ 
 		int i = 0, j = 0, k = 0; 

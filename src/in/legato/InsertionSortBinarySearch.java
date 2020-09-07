@@ -1,4 +1,4 @@
-package Sorting_And_Searching_2;
+package in.legato;
 /*Problem 1
 1. Create function to accept the details of 10 products(product name- String)
 2. Create function to arrange the elements in descending order using insertion sort
@@ -6,7 +6,7 @@ package Sorting_And_Searching_2;
 the product details to user - binary search
  */
 import java.util.*;
-public class ProblemOne {
+public class InsertionSortBinarySearch {
 	public String[] intputProducts() {
 		Scanner scanner=new Scanner(System.in);
 		System.out.println("Enter the number of products.");
@@ -90,7 +90,7 @@ public class ProblemOne {
 	}
 	
 	public static void main(String[] args) {
-		ProblemOne product=new ProblemOne();
+		InsertionSortBinarySearch product=new InsertionSortBinarySearch();
 		String[] products=product.intputProducts();
 		String[]  sortedProducts=product.mergeSort(products);
 		System.out.println("Product details.");

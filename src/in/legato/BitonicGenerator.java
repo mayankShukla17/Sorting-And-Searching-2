@@ -1,13 +1,12 @@
-package Sorting_And_Searching_2;
-import java.util.Arrays;
+package in.legato;
 /*Problem 4
 Given an array of n distinct numbers, sort all even-placed numbers in increasing and 
 odd-placed numbers in decreasing order. The modified array should contain all sorted 
 even-placed numbers followed by reverse sorted odd-placed numbers.
 Note: the first element is considered as even placed because of its index 0. 
  */
-import java.util.Scanner;
-public class ProblemFour {
+import java.util.*;
+public class BitonicGenerator {
 	static void bitonicGenerator(int array[], int size) 
 	{ 
 		int i = 1; 

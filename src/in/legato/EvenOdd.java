@@ -1,4 +1,4 @@
-package Sorting_And_Searching_2;
+package in.legato;
 /*Problem 5
 Given an array of integers, segregate odd and even numbers in an array. 
 Note: Order of elements can be changed.
@@ -7,7 +7,7 @@ Array after separating odd and even numbers :
 {12, 90, 70, 22, 15, 65, 21, 17}
 */
 import java.util.Scanner;
-public class ProblemFive {
+public class EvenOdd {
 	public static int[] separateEvenOddNumbers(int array[])
 	{
 		int left=0;

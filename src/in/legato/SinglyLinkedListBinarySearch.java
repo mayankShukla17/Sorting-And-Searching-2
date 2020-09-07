@@ -1,8 +1,8 @@
-package Sorting_And_Searching_2;
+package in.legato;
 /*Problem 3
 Given a singly linked list and a key, find the key using the binary search approach.
 */
-class ProblemThree 
+class SinglyLinkedListBinarySearch 
 { 
 	static class Node 
 	{ 
